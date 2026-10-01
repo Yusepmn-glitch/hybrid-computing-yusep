@@ -16,7 +16,7 @@ from pathlib import Path
 STOPWORDS = {"dan", "yang", "di", "the", "of", "and"}
 
 def process_file(filepath):
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
         text = f.read().lower()
     
     # Tokenisasi & Regex

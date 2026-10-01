@@ -1,0 +1,5 @@
+psutil
+mpi4py
+matplotlib
+requests
+beautifulsoup4
